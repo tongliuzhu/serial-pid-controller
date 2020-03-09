@@ -20,7 +20,7 @@ git checkout -b your_feature_branch origin/master
 
 ### Compile and Run Source code
 ```sh
-cd serial-pid-controller
+cd serial-pid-controller && cd build
 cmake .. && make
 ./serialpid
 ```
